@@ -1,0 +1,49 @@
+{
+  "name": "karma-nodewebkit-mocha",
+  "version": "0.1.0",
+  "description": "Karma plugin to allow Mocha to run in NW.js",
+  "homepage": "https://github.com/kierans/karma-nodewebkit-mocha",
+  "contributors": [
+    {
+      "name": "Ben Schmidt"
+    },
+    {
+      "name": "Kieran Simpson",
+      "email": "kierans777@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kierans/karma-nodewebkit-mocha"
+  },
+  "bugs": "https://github.com/kierans/karma-nodewebkit-mocha/issues",
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=3.0.0"
+  },
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "karma-adapter",
+    "mocha",
+    "nodewebkit"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^0.4.5",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-istanbul": "^5.0.1",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-shrinkwrap": "^1.1.0",
+    "istanbul": "^0.4.3",
+    "jshint-stylish": "^2.1.0",
+    "load-grunt-tasks": "^3.4.0",
+    "mocha": "^3.4.1",
+    "mocha-should": "^0.0.3"
+  }
+}

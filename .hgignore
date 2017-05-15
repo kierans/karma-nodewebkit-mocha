@@ -1,0 +1,6 @@
+syntax: glob
+
+node_modules
+coverage
+
+/Gruntfile.local.js
