@@ -7,6 +7,8 @@
 npm install karma-nodewebkit-mocha --save-dev
 ```
 
+To see module in action, see the `test/karma` project 
+
 ## License
 
 MIT
