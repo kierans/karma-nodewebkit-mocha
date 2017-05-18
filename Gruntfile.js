@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 			},
 
 			all: {
-				src: "test/**/*.js"
+				src: "test/*.js"
 			}
 		},
 		mocha_istanbul: { // eslint-disable-line camelcase
