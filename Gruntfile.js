@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 				src: "Gruntfile.js"
 			},
 			src: {
-				src: [ "src/**/*.js" ]
+				src: [ "src/**/*.js", "!src/save-global.js", "!src/restore-global.js" ]
 			},
 			test: {
 				src: [ "test/**/*.js", "!test/karma/node_modules/**" ]
